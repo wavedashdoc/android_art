@@ -23,6 +23,7 @@ namespace.default.permitted.paths = /system/framework
 namespace.default.links = platform
 # TODO(b/119867084): Restrict fallback to platform namespace to PALette library.
 namespace.default.link.platform.allow_all_shared_libs = true
+namespace.default.link.platform.shared_libs = libashmemd_client.so
 
 # Keep in sync with the default namespace in /system/etc/ld.config.txt.
 namespace.platform.isolated = true
